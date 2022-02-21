@@ -1,17 +1,36 @@
 # Inverse-of-matrix
 
-## AIM:
+## AIM: To write a program to perform Inverse-of-matrix using python programming.
+
 
 ## ALGORITHM:
-### Step 1:
-### Step 2:
-### Step 3:
-### Step 4:
-### Step 5:
+### Step 1: Import Numpy module as np.
+
+### Step 2: Create empty lists
+### Step 3: Get input from the user for number of rows and columns.
+### Step 4: Use nested lists to append list.
+### Step 5: Print the inverse of the array using np.linalg.inv 
 
 
 ## PROGRAM:
+import numpy as np
+la=[]
+lb=[]
+n1=int(input())
+n2=int(input())
+for i in range(n1):
+for j in range(n2):
+val=int(input())
+la.append(val)
+lb.append(la)
+la=[]
+print(lb)
+inverse=np.linalg.inv(lb)
+print(inverse)
 
 ## OUTPUT:
+![image](https://user-images.githubusercontent.com/93427238/154992781-443c4deb-5d14-41ab-a05b-68d76964f742.png)
+
 
 ## RESULT:
+Thus the program is written to perform Inverse-of-matrix using python programming
